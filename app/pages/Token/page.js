@@ -224,7 +224,7 @@ const DetailsPage = () => {
     }
     try {
       const wallet = ethers.Wallet.createRandom()
-      const provider = new ethers.JsonRpcProvider('https://bsc-testnet-rpc.publicnode.com');
+      const provider = new ethers.JsonRpcProvider(url);
       const signer = wallet.connect(provider);
       const thisContract = new ethers.Contract(contract, abi, signer);
       const result = await thisContract.balances(tickName, searchTerm);
