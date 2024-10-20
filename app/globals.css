@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.font-config {
+  font-weight: bold;
+  font-size: 1em;
+  /* font-family: 'Fredoka One', cursive */
+}
+
+html {
+  /* height: 100vh; */
+  margin: 0;
+  background-color: #f8f9fa;
+  background: linear-gradient(to bottom right, #d3e5f9, #d3e5f9);
+  /* Prevent scrolling */
+  width: 100%;
+}
+
+
+body {
+  height: 100%;
+  font-weight: bold;
+  font-size: 1.2em;
+  /* font-family: 'Fredoka One', cursive */
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+}
